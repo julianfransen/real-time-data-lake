@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "real-time-data-lake"
+version = "0.1.0"
+description = ""
+authors = ["julianfransen <julian.fransen@hotmail.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+kafka-python = "^2.0.2"
+pyspark = "^3.5.2"
+great-expectations = "^1.0.5"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
