@@ -1,0 +1,7 @@
+# Start the ZooKeeper service
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+open another terminal
+
+# Start the Kafka broker service
+$ bin/kafka-server-start.sh config/server.propert
