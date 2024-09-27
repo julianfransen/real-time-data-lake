@@ -1,0 +1,2 @@
+[2024-09-27 16:49:06,480] INFO Expiring session 0x100052a2d470001, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-09-27 16:49:06,629] INFO Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:40556, session = 0x100052a2d470001 (org.apache.zookeeper.server.NIOServerCnxn)
