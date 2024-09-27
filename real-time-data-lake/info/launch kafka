@@ -1,0 +1,14 @@
+# Start the ZooKeeper service
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+open another terminal
+
+# Start the Kafka broker service
+$ bin/kafka-server-start.sh config/server.properties
+
+
+Test consumer: bash
+bin/kafka-console-consumer.sh --topic my-data-stream --from-beginning --bootstrap-server localhost:9092
+
+test producer: bash
+bin/kafka-console-producer.sh --topic my-data-stream --bootstrap-server localhost:9092

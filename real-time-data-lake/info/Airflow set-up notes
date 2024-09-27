@@ -1,0 +1,7 @@
+airflow users create --username admin --password password --role Admin 
+
+airflow db init
+
+airflow scheduler
+airflow webserver
+

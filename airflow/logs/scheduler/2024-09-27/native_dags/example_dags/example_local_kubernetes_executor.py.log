@@ -1,0 +1,176 @@
+[2024-09-27T14:20:26.685+0200] {processor.py:186} INFO - Started process (PID=280034) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:20:26.685+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:20:26.686+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:20:26.686+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:20:26.688+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:20:26.688+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:20:26.689+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:20:26.688+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:20:26.689+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:20:26.695+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2024-09-27T14:22:07.434+0200] {processor.py:186} INFO - Started process (PID=280232) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:22:07.440+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:22:07.442+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:22:07.442+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:22:07.446+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:22:07.445+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:22:07.446+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:22:07.446+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:22:07.447+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:22:07.460+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-09-27T14:23:03.027+0200] {processor.py:186} INFO - Started process (PID=280329) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:03.033+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:23:03.036+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:03.035+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:03.039+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:03.038+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:23:03.040+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:03.040+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:23:03.040+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:03.053+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-09-27T14:23:58.079+0200] {processor.py:186} INFO - Started process (PID=280498) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:58.085+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:23:58.088+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:58.087+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:58.091+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:58.091+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:23:58.092+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:23:58.092+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:23:58.092+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:23:58.105+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-09-27T14:24:49.533+0200] {processor.py:186} INFO - Started process (PID=280710) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:24:49.539+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:24:49.541+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:24:49.541+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:24:49.545+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:24:49.544+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:24:49.545+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:24:49.545+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:24:49.546+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:24:49.559+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-09-27T14:30:35.428+0200] {processor.py:186} INFO - Started process (PID=281425) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:30:35.434+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:30:35.435+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:30:35.435+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:30:35.437+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:30:35.437+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:30:35.437+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:30:35.437+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:30:35.437+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:30:35.444+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2024-09-27T14:31:29.490+0200] {processor.py:186} INFO - Started process (PID=281541) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:31:29.496+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:31:29.499+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:31:29.498+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:31:29.502+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:31:29.501+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:31:29.503+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:31:29.502+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:31:29.503+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:31:29.516+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2024-09-27T14:32:24.306+0200] {processor.py:186} INFO - Started process (PID=281633) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:32:24.312+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:32:24.314+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:32:24.314+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:32:24.318+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:32:24.317+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:32:24.318+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:32:24.318+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:32:24.319+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:32:24.331+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2024-09-27T14:33:12.976+0200] {processor.py:186} INFO - Started process (PID=281784) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:33:12.977+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:33:12.978+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:33:12.978+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:33:12.981+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:33:12.980+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:33:12.981+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:33:12.981+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:33:12.981+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:33:12.990+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2024-09-27T14:34:02.584+0200] {processor.py:186} INFO - Started process (PID=281897) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:02.590+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:34:02.593+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:02.592+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:02.597+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:02.596+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:34:02.597+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:02.597+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:34:02.598+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:02.611+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2024-09-27T14:34:52.073+0200] {processor.py:186} INFO - Started process (PID=282107) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:52.075+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:34:52.077+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:52.077+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:52.081+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:52.080+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:34:52.081+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:34:52.081+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:34:52.082+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:34:52.095+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2024-09-27T14:35:39.071+0200] {processor.py:186} INFO - Started process (PID=282183) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:35:39.077+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:35:39.078+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:35:39.078+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:35:39.080+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:35:39.080+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:35:39.080+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:35:39.080+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:35:39.080+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:35:39.087+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2024-09-27T14:36:27.922+0200] {processor.py:186} INFO - Started process (PID=282257) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:36:27.923+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:36:27.926+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:36:27.925+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:36:27.929+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:36:27.928+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:36:27.930+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:36:27.929+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:36:27.930+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:36:27.943+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2024-09-27T14:37:18.224+0200] {processor.py:186} INFO - Started process (PID=282338) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:37:18.225+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:37:18.228+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:37:18.227+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:37:18.231+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:37:18.230+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:37:18.231+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:37:18.231+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:37:18.232+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:37:18.245+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2024-09-27T14:38:09.635+0200] {processor.py:186} INFO - Started process (PID=282572) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:09.635+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:38:09.637+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:09.636+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:09.638+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:09.638+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:38:09.639+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:09.639+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:38:09.639+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:09.646+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2024-09-27T14:38:59.071+0200] {processor.py:186} INFO - Started process (PID=282831) to work on /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:59.077+0200] {processor.py:914} INFO - Processing file /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-09-27T14:38:59.080+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:59.079+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:59.083+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:59.082+0200] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-09-27T14:38:59.084+0200] {logging_mixin.py:190} INFO - [2024-09-27T14:38:59.084+0200] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-09-27T14:38:59.084+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-09-27T14:38:59.097+0200] {processor.py:208} INFO - Processing /home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
