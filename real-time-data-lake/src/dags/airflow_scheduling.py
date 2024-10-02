@@ -12,7 +12,7 @@ sys.path.insert(0, src_directory)  # Add src/ directory to Python path
 
 # Define your DAG with the desired schedule (default 5 minutes)
 default_args = {
-    'owner': 'airflow',
+    'owner': 'jf',
     'depends_on_past': False,
     'start_date': datetime(2023, 9, 27, 13, 35),  # Adjust the start date
     'retries': 1,

@@ -1,6 +1,9 @@
 # Data
 /data/
 
+# Kafka logs
+/kafka_2.13-3.8.0/logs/
+
 # Mac OS-specific storage files
 .DS_Store
 
