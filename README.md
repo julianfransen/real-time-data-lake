@@ -8,9 +8,17 @@ This project builds a real-time data pipeline that ingests, processes, and store
 - Data quality validation with Great Expectations.
 
 ### Installation:
-1. Install Apache Kafka: [Kafka Quickstart](https://kafka.apache.org/quickstart).
-2. Install Apache Spark: [Spark Installation Guide](https://spark.apache.org/docs/latest/).
-3. Set up AWS S3 or Google Cloud Storage.
-4. Install Python dependencies: 
-```bash
-pip install -r requirements.txt
+Run Dockerimage
+# Run the container interactively:
+docker run --env-file .env -it --rm real-time-data-lake
+
+!!!! make sure you manually open the URL when this appears in terminal:
+ "Airflow UI is available at: http://localhost:8080/home"
+
+
+
+# Run in detached mode (background):
+docker run -d --env-file .env --name my-container real-time-data-lake
+
+# Stop the container (if needed):
+docker stop my-container

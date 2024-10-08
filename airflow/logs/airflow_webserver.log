@@ -1,0 +1,69 @@
+/home/julian/airflow/logs/scheduler/latest already exists as a dir/file. Skip creating symlink.
+/home/julian/airflow/logs/scheduler/latest already exists as a dir/file. Skip creating symlink.
+[2024-10-07T13:10:42.293+0200] {file_processor_handler.py:129} WARNING - /home/julian/airflow/logs/scheduler/latest already exists as a dir/file. Skip creating symlink.
+/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/providers/fab/auth_manager/fab_auth_manager.py:547 FutureWarning: section/key [webserver/update_fab_perms] has been deprecated, you should use[fab/update_fab_perms] instead. Please update your `conf.get*` call to use the new name
+[2024-10-07 13:10:44 +0200] [196181] [INFO] Starting gunicorn 23.0.0
+[2024-10-07 13:10:44 +0200] [196181] [INFO] Listening at: http://0.0.0.0:8080 (196181)
+[2024-10-07 13:10:44 +0200] [196181] [INFO] Using worker: sync
+[2024-10-07 13:10:44 +0200] [196183] [INFO] Booting worker with pid: 196183
+[2024-10-07 13:10:44 +0200] [196184] [INFO] Booting worker with pid: 196184
+[2024-10-07 13:10:44 +0200] [196185] [INFO] Booting worker with pid: 196185
+[2024-10-07 13:10:44 +0200] [196186] [INFO] Booting worker with pid: 196186
+127.0.0.1 - - [07/Oct/2024:13:10:46 +0200] "GET /home HTTP/1.1" 302 229 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+/home/julian/.cache/pypoetry/virtualenvs/real-time-data-lake-QWGm5iRW-py3.11/lib/python3.11/site-packages/airflow/www/views.py:884 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /home?lastrun=running HTTP/1.1" 200 35613 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/fontawesome/brands.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/fontawesome/regular.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/fontawesome/fontawesome.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/fontawesome/v4-shims.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/dags.8eecf21a60bc28e1511a.css HTTP/1.1" 200 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/select2/select2.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/flash.65805954dad3c27a3986.css HTTP/1.1" 200 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/select2/select2-bootstrap.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/ab.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/airflowDefaultTheme.59b664aabc63e0ea7281.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/materialIcons.b2aed9f877c993431fde.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/main.8461584ab30f513901c2.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/loadingDots.919e5f1534f5f57b7eb4.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/bootstrap-datetimepicker.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/toggleTheme.acf125721c09f1a04027.js HTTP/1.1" 200 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/switch.5dc547a0258cf18ca1e2.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/select2/select2.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/ab.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/moment.af388b38f7330f0c8f38.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/main.8461584ab30f513901c2.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/bootstrap-datetimepicker.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/dags.8eecf21a60bc28e1511a.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/d3.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/js/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/dist/bootstrap3-typeahead.min.js HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/fontawesome/solid.min.css HTTP/1.1" 304 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:47 +0200] "GET /static/appbuilder/css/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 0 "http://localhost:8080/static/appbuilder/css/fontawesome/regular.min.css" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+127.0.0.1 - - [07/Oct/2024:13:10:48 +0200] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://localhost:8080/home?lastrun=running" "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================
+[2024-10-07T13:21:09.923+0200] {webserver_command.py:430} INFO - Received signal: 15. Closing gunicorn.
+[2024-10-07 13:21:09 +0200] [196181] [INFO] Handling signal: term
+[2024-10-07 13:21:09 +0200] [196184] [INFO] Worker exiting (pid: 196184)
+[2024-10-07 13:21:09 +0200] [196183] [INFO] Worker exiting (pid: 196183)
+[2024-10-07 13:21:09 +0200] [196186] [INFO] Worker exiting (pid: 196186)
+[2024-10-07 13:21:09 +0200] [196185] [INFO] Worker exiting (pid: 196185)
+[2024-10-07 13:21:11 +0200] [196181] [INFO] Shutting down: Master

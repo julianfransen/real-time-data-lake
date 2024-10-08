@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "real-time-data-lake"
 version = "0.1.0"
-description = ""
+description = "A real-time data lake project"
 authors = ["julianfransen <julian.fransen@hotmail.nl>"]
 readme = "README.md"
+package-mode = false 
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
